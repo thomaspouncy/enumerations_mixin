@@ -8,7 +8,7 @@ begin
     gem.homepage = "http://github.com/pivotal/enumerations_mixin"
     gem.authors = ["Trevor Squires", "Pivotal Labs"]
     gem.files = Dir["{lib}/**/*"] + Dir["{examples}/**/*"]
-    gem.add_dependency "rails", '~> 3.0.0'
+    gem.add_dependency "rails", '>= 3.0.0'
   end
 rescue
   puts "Jeweler or one of its dependencies is not installed."
